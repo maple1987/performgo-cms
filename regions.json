@@ -1,0 +1,124 @@
+[
+  {
+    "id": "north-america",
+    "name": "North America",
+    "cities": [
+      { 
+        "id": "atlanta",
+        "name": "Atlanta",
+        "image": "https://dt-cdn.net/images/atlanta-400x400-400-3219714ef5.jpg"
+      },
+      { 
+        "id": "san-francisco",
+        "name": "San Francisco",
+        "image": "https://dt-cdn.net/images/sanfrancisco-400x400-400-60de1c0cdb.jpg"
+      },
+      { 
+        "id": "new-york-city",
+        "name": "New York City",
+        "image": "https://dt-cdn.net/images/newyork-400x400-400-07a0e3162d.jpg"
+      },
+      { 
+        "id": "toronto",
+        "name": "Toronto",
+        "image": "https://dt-cdn.net/images/toronto-400x400-400-d20458d8a3.jpg"
+      },
+      { 
+        "id": "chicago",
+        "name": "Chicago",
+        "image": "https://dt-cdn.net/images/chicago-400x400-400-fa892f0c31.jpg"
+      }
+    ]
+  },
+  {
+    "id": "apac",
+    "name": "APAC",
+    "video": "http://play.vidyard.com/d1g6oxa6QCZUXQqrkoCo72",
+    "cities": [
+      { 
+        "id": "sydney",
+        "name": "Sydney",
+        "image": "https://dt-cdn.net/images/sydney-400x400-400-0ea28331be.jpg"
+      },
+      { 
+        "id": "singapore",
+        "name": "Singapore",
+        "image": "https://dt-cdn.net/images/singapore-400x400-400-b11666f337.jpg"
+      },
+      { 
+        "id": "kuala-lumpur",
+        "name": "Kuala Lumpur",
+        "image": "https://dt-cdn.net/images/kualalumpur-400x400-400-ea59bdf09f.jpg"
+      },
+      { 
+        "id": "mumbai",
+        "name": "Mumbai",
+        "image": "https://dt-cdn.net/images/mumbai-400x400-400-a24a157cb7.jpg"
+      },
+      { 
+        "id": "shanghai",
+        "name": "Shanghai",
+        "image": "https://dt-cdn.net/images/shanghai-400x400-400-ed0bcd2c7d.jpg"
+      },
+      { 
+        "id": "tokyo",
+        "name": "Tokyo",
+        "image": "https://dt-cdn.net/images/tokyo-400x400-400-548c14dc86.jpg"
+      }
+    ]
+  },
+  {
+    "id": "europe",
+    "name": "Europe",
+    "video": "https://play.vidyard.com/Ytu14Xsw8mzs8nEkUyJ7Ce",
+    "cities": [
+      { 
+        "id": "berlin",
+        "name": "Berlin",
+        "image": "https://dt-cdn.net/images/berlin-400x400-400-1cb055c746.jpg"
+      },
+      { 
+        "id": "london",
+        "name": "London",
+        "image": "https://dt-cdn.net/images/london-400x400-400-68972ad46a.jpg"
+      },
+      { 
+        "id": "madrid",
+        "name": "Madrid",
+        "image": "https://dt-cdn.net/images/madrid-400x400-400-5611765b47.jpg"
+      },
+      { 
+        "id": "paris",
+        "name": "Paris",
+        "image": "https://dt-cdn.net/images/paris-400x400-400-1a3b8ebb8c.jpg"
+      },
+      { 
+        "id": "milan",
+        "name": "Milan",
+        "image": "https://dt-cdn.net/images/milan-400x400-400-943e2b0f5b.jpg"
+      },
+      { 
+        "id": "benelux",
+        "name": "Benelux",
+        "image": "https://dt-cdn.net/images/benelux-400x400-400-356f02b45d.jpg"
+      }
+    ]
+  },
+  {
+    "id": "latin-america",
+    "name": "Latin America",
+    "video": "https://play.vidyard.com/HhTAHA6wAKwkWGVD4rjHAT",
+    "cities": [
+      { 
+        "id": "sao-paulo",
+        "name": "Sao Paulo",
+        "image": "https://dt-cdn.net/images/saopaulo-400x400-400-c05edb842b.jpg"
+      },
+      { 
+        "id": "mexio-city",
+        "name": "Mexio City",
+        "image": "https://dt-cdn.net/images/mexicocity-400x400-400-392415c3bd.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "title": "Singapore",
+  "region": "apac",
+  "event": {
+    "allow_registration": false,
+    "address": "Marina Bay Sands Expo & Convention Centre",
+    "date": "08/15/2019"
+  },
+  "agendas": [
+    {
+      "time": "8:30AM—9:30AM",
+      "title": "Registration and Welcome"
+    },
+    {
+      "time": "9:30AM—9:40AM",
+      "title": "Welcome to PerformGo Sydney"
+    },
+    {
+      "time": "9:40AM—10:10AM",
+      "title": "Keynote: IDC - The Future Enterprise, A Blueprint for Digital Success",
+      "content": "Hear from an IDC Analyst on the key challenges enterprises are facing as they embark on digital transformation, and insights to trends that are driving demands and opportunities in the Asia-Pacific market."
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Linus Lai",
+      "title": "Vice President",
+      "company": "IDC",
+      "description": "Based in Sydney, Linus Lai is a member of the Asia/Pacific Software and Services Research Group and has more than 20 years of IT experience in the region. In this role, he is responsible for providing insights and analyses in enterprise adoption, integration, and management of these solutions. Linus is a founding member of IDC Asia/Pacific's Emerging Technology Advisory Council and is a recipient of numerous awards for country, regional, and quality research contributions. In his previous role as head of research in Southeast Asia, he developed and grew IDC's presence in the region.",
+      "avatar_url": "https://dt-cdn.net/images/linus-lai-700-7d9bbc9f86.png",
+      "company_logo_url": "https://dt-cdn.net/images/logo-idc-harmonized-300-f0d2f5d4f7.png",
+      "linkedin": "https://www.linkedin.com/in/linuslai/"
+    },
+    {
+      "name": "Rafi Katanasho",
+      "title": "COE Lead",
+      "company": "ANZ New Zealand",
+      "description": "Marek leads the Operational Tooling & Services function at ANZ Bank. Over the past two years, he has led a highly motivated team committed to growing the adoption of application performance monitoring (APM) across ANZ New Zealand. Marek is customer-focused and thrives on achieving successful outcomes through collaboration and motivating others to succeed. He is passionate about adding value using technology solutions to drive better ways of working. Outside of work, Marek is a keen sports fan and enjoys cycling.",
+      "avatar_url": "https://dt-cdn.net/images/marek-matuszewski-300-300-24c57279d3.jpg",
+      "company_logo_url": "https://dt-cdn.net/images/anz-resized-400-db5f75b30a.png",
+      "linkedin": "https://www.linkedin.com/in/marekmatuszewski/"
+    }
+  ]
+}

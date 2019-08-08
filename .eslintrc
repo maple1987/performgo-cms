@@ -1,0 +1,45 @@
+{
+  "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+  },
+  "globals": {
+    "require": true,
+    "exports": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["import", "react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true,
+        "jsx": true,
+        "legacyDecorators": true,
+        "experimentalObjectRestSpread": true
+      }
+  },
+  "rules": {
+      "react/jsx-no-duplicate-props": 2,
+      "react/prop-types": 0,
+      "react/require-render-return": 2,
+      "react/jsx-no-undef": 2,
+      "react/no-unknown-property": 0,
+      "react/react-in-jsx-scope": 2,
+      "react/display-name": 0,
+      "react/jsx-uses-vars": 2,
+      "indent": ["error", 2, { "SwitchCase": 1 }],
+      "block-spacing": ["error", "always"],
+      "object-curly-spacing": ["error", "always"],
+      "no-var": "error",
+      "no-const-assign": "error",
+      "no-constant-condition": "error",
+      "eqeqeq": ["error", "smart"],
+      "no-empty": ["error", { "allowEmptyCatch": true }],
+      "no-console": "off",
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single"],
+      "semi": ["error", "never"]
+  }
+}

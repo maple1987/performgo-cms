@@ -1,0 +1,167 @@
+backend:
+  name: github
+  repo: maple1987/performgo-cms
+  branch: master
+media_folder: static/img
+publish_mode: editorial_workflow
+collections:
+  - name: "apac"
+    label: "Apac"
+    folder: "content"
+    create: false
+    delete: false
+    format: json
+    filter: {field: "region", value: "apac"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Region", name: "region", widget: "hidden", default: "apac"}
+      - label: "Event"
+        name: "event"
+        widget: "object"
+        fields:
+          - {label: "Allow Registration", name: "allow_registration", widget: "boolean", default: true}
+          - {label: "Address", name: "address", widget: "string"}
+          - label: "Date"
+            name: "date"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+      - label: Agenda
+        name: agendas
+        widget: list
+        fields:
+          - {label: Time, name: time, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: content, widget: text, required: false}
+      - label: Speaker
+        name: speakers
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Company, name: company, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: Avatar URL, name: avatar_url, widget: string}
+          - {label: Company Logo URL, name: company_logo_url, widget: string}
+          - {label: Linkedin, name: linkedin, widget: string, required: false}
+          - {label: Twitter, name: twitter, widget: string, required: false}
+  - name: "europe"
+    label: "Europe"
+    folder: "content"
+    create: false
+    delete: false
+    format: json
+    filter: {field: "region", value: "europe"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Region", name: "region", widget: "hidden", default: "europe"}
+      - label: "Event"
+        name: "event"
+        widget: "object"
+        fields:
+          - {label: "Allow Registration", name: "allow_registration", widget: "boolean", default: true}
+          - {label: "Address", name: "address", widget: "string"}
+          - label: "Date"
+            name: "date"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+      - label: Agenda
+        name: agendas
+        widget: list
+        fields:
+          - {label: Time, name: time, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: content, widget: text, required: false}
+      - label: Speaker
+        name: speakers
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Company, name: company, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: Avatar URL, name: avatar_url, widget: string}
+          - {label: Company Logo URL, name: company_logo_url, widget: string}
+          - {label: Linkedin, name: linkedin, widget: string, required: false}
+          - {label: Twitter, name: twitter, widget: string, required: false}
+  - name: "latin-america"
+    label: "Latin America"
+    folder: "content"
+    create: false
+    delete: false
+    format: json
+    filter: {field: "region", value: "latin-america"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Region", name: "region", widget: "hidden", default: "latin-america"}
+      - label: "Event"
+        name: "event"
+        widget: "object"
+        fields:
+          - {label: "Allow Registration", name: "allow_registration", widget: "boolean", default: true}
+          - {label: "Address", name: "address", widget: "string"}
+          - label: "Date"
+            name: "date"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+      - label: Agenda
+        name: agendas
+        widget: list
+        fields:
+          - {label: Time, name: time, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: content, widget: text, required: false}
+      - label: Speaker
+        name: speakers
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Company, name: company, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: Avatar URL, name: avatar_url, widget: string}
+          - {label: Company Logo URL, name: company_logo_url, widget: string}
+          - {label: Linkedin, name: linkedin, widget: string, required: false}
+          - {label: Twitter, name: twitter, widget: string, required: false}
+  - name: "north-america"
+    label: "North America"
+    folder: "content"
+    create: false
+    delete: false
+    format: json
+    filter: {field: "region", value: "north-america"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Region", name: "region", widget: "hidden", default: "north-america"}
+      - label: "Event"
+        name: "event"
+        widget: "object"
+        fields:
+          - {label: "Allow Registration", name: "allow_registration", widget: "boolean", default: true}
+          - {label: "Address", name: "address", widget: "string"}
+          - label: "Date"
+            name: "date"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+      - label: Agenda
+        name: agendas
+        widget: list
+        fields:
+          - {label: Time, name: time, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Content, name: content, widget: text, required: false}
+      - label: Speaker
+        name: speakers
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Company, name: company, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: Avatar URL, name: avatar_url, widget: string}
+          - {label: Company Logo URL, name: company_logo_url, widget: string}
+          - {label: Linkedin, name: linkedin, widget: string, required: false}
+          - {label: Twitter, name: twitter, widget: string, required: false}

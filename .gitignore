@@ -1,0 +1,7 @@
+.next/
+.cache
+node_modules/
+out/
+.DS_Store
+.vscode
+npm-debug.log
