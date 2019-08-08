@@ -3,13 +3,14 @@
   "region": "apac",
   "event": {
     "allow_registration": true,
-    "address": "Marina Bay Sands Expo & Convention Centre",
+    "address": "Marina Bay Sands Expo",
     "date": "08/15/2019"
   },
   "agendas": [
     {
-      "time": "8:30AM—9:30AM",
-      "title": "Registration and Welcome"
+      "time": "8:30AM—9:50AM",
+      "title": "Registration",
+      "content": "demo content"
     },
     {
       "time": "9:30AM—9:40AM",
@@ -23,15 +24,6 @@
   ],
   "speakers": [
     {
-      "name": "Linus Lai",
-      "title": "Vice President",
-      "company": "IDC",
-      "description": "Based in Sydney, Linus Lai is a member of the Asia/Pacific Software and Services Research Group and has more than 20 years of IT experience in the region. In this role, he is responsible for providing insights and analyses in enterprise adoption, integration, and management of these solutions. Linus is a founding member of IDC Asia/Pacific's Emerging Technology Advisory Council and is a recipient of numerous awards for country, regional, and quality research contributions. In his previous role as head of research in Southeast Asia, he developed and grew IDC's presence in the region.",
-      "avatar_url": "https://dt-cdn.net/images/linus-lai-700-7d9bbc9f86.png",
-      "company_logo_url": "https://dt-cdn.net/images/logo-idc-harmonized-300-f0d2f5d4f7.png",
-      "linkedin": "https://www.linkedin.com/in/linuslai/"
-    },
-    {
       "name": "Rafi Katanasho",
       "title": "COE Lead",
       "company": "ANZ New Zealand",
@@ -39,6 +31,15 @@
       "avatar_url": "https://dt-cdn.net/images/marek-matuszewski-300-300-24c57279d3.jpg",
       "company_logo_url": "https://dt-cdn.net/images/anz-resized-400-db5f75b30a.png",
       "linkedin": "https://www.linkedin.com/in/marekmatuszewski/"
+    },
+    {
+      "name": "Linus Lai",
+      "title": "Vice President",
+      "company": "IDC",
+      "description": "Based in Sydney, Linus Lai is a member of the Asia/Pacific Software and Services Research Group and has more than 20 years of IT experience in the region. In this role, he is responsible for providing insights and analyses in enterprise adoption, integration, and management of these solutions. Linus is a founding member of IDC Asia/Pacific's Emerging Technology Advisory Council and is a recipient of numerous awards for country, regional, and quality research contributions. In his previous role as head of research in Southeast Asia, he developed and grew IDC's presence in the region.",
+      "avatar_url": "https://dt-cdn.net/images/linus-lai-700-7d9bbc9f86.png",
+      "company_logo_url": "https://dt-cdn.net/images/logo-idc-harmonized-300-f0d2f5d4f7.png",
+      "linkedin": "https://www.linkedin.com/in/linuslai/"
     }
   ]
 }
