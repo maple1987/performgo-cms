@@ -4,7 +4,7 @@
   "event": {
     "allow_registration": true,
     "address": "Humboldt Carré",
-    "date": "09/12/2019"
+    "date": "09/02/2019"
   },
   "agendas": [
     {
@@ -24,7 +24,7 @@
   ],
   "speakers": [
     {
-      "name": "Linus Lai",
+      "name": "Linus Lai mamager",
       "title": "Vice President",
       "company": "IDC",
       "description": "Based in Sydney, Linus Lai is a member of the Asia/Pacific Software and Services Research Group and has more than 20 years of IT experience in the region. In this role, he is responsible for providing insights and analyses in enterprise adoption, integration, and management of these solutions. Linus is a founding member of IDC Asia/Pacific's Emerging Technology Advisory Council and is a recipient of numerous awards for country, regional, and quality research contributions. In his previous role as head of research in Southeast Asia, he developed and grew IDC's presence in the region.",
