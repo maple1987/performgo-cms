@@ -2,7 +2,7 @@
   "title": "Singapore",
   "region": "apac",
   "event": {
-    "allow_registration": true,
+    "allow_registration": false,
     "address": "Marina Bay Sands Expo & Convention Centre",
     "date": "08/15/2019"
   },
